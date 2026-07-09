@@ -8,7 +8,7 @@ export async function POST(request: Request) {
         const { name, email, subject, message } = await request.json();
 
         const data = await resend.emails.send({
-            from: "Acme <onboarding@resend.dev>", 
+            from: "https://iboyi-8vd63451u-bright-dev-fullstacks-projects.vercel.app/", 
             to: ["iboyibright1@gmail.com"], // <-- Removed the space here
             subject: `New Portfolio Message: ${subject}`,
             replyTo: email as string, // <-- Fixed the TS error here
