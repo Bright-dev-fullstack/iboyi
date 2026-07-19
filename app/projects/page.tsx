@@ -33,7 +33,7 @@ export default function ProjectsPage() {
             category: "Backend",
             tags: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS"],
             liveUrl: "#",
-            githubUrl: "#"
+            githubUrl: "https://github.com/Tochukwu-001/apiconnect"
         },
         {
             title: "Sereno",
@@ -42,7 +42,7 @@ export default function ProjectsPage() {
             category: "Frontend",
             tags: ["React", "Next.js", "Firebase", "Tailwind CSS"],
             liveUrl: "#",
-            githubUrl: "#"
+            githubUrl: "https://github.com/Bright-dev-fullstack/Senero"
         },
         {
             title: "Jaybliz Studio & Spa",
@@ -51,7 +51,7 @@ export default function ProjectsPage() {
             category: "Fullstack",
             tags: ["React", "Next.js", "Tailwind CSS", "Calendly API", "Firebase"],
             liveUrl: "#",
-            githubUrl: "#"
+            githubUrl: "https://github.com/Bright-dev-fullstack/jaybliz"
         }
     ];
 

@@ -14,7 +14,7 @@ export default function Footer() {
 
     const socialLinks = [
         { name: "GitHub", url: "https://github.com/Bright-dev-fullstack" },
-        { name: "LinkedIn", url: "https://linkedin.com" },
+        { name: "LinkedIn", url: "https://www.linkedin.com/in/bright-iboyi-a9297b222?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
         { name: "Twitter / X", url: "https://twitter.com" },
     ];
 

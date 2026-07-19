@@ -13,16 +13,16 @@ export default function Home() {
     // Your actual project data
     const featuredProjects: Project[] = [
         {
-            title: "Taskerr",
+            title: "Sereno",
             desc: "A fast, premium job search app with smart filtering and an easy-to-use interface.",
             tag: "Full-Stack",
-            image: "/star.png" // Replace with actual project screenshot path
+            image: "/senero.png" // Replace with actual project screenshot path
         },
         {
             title: "API Connect",
             desc: "A reliable platform to easily manage, route, and connect your API data.",
             tag: "Backend / API",
-            image: "/star.png"
+            image: "/apicon.png"
         }
     ];
 
@@ -55,7 +55,7 @@ export default function Home() {
                         Available for work
                     </span>
                     
-                    <h1 className="text-2xl md:text-6xl font-black tracking-tight leading-[1.1]">
+                    <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-[1.1]">
                         Where logic meets <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-500">imagination.</span>
                     </h1>
                     
@@ -107,14 +107,15 @@ export default function Home() {
                 </div>
                 <div className="relative aspect-video md:aspect-square bg-gradient-to-tr from-gray-900 to-gray-800 rounded-3xl border border-white/10 p-8 flex items-center justify-center overflow-hidden group">
                     {/* Subtle mesh background element */}
-                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.04)_0,transparent_60%)] group-hover:scale-120 transition-transform duration-700" />
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.04)_0,transparent_60%)] group-hover:scale-120 transition-transform duration-700 overflow-hidden" />
                     <Image 
-                        src="/star.png" 
+                        src="/bri.jpg" 
                         alt="Core Graphics" 
-                        width={180} 
-                        height={180} 
-                        className="opacity-70 group-hover:rotate-12 transition-transform duration-500"
+                        width={500} 
+                        height={700} 
+                        className="opacity-70 rounded-md md:object-contain md:h-full max-md:mt-10 "
                     />
+                    {/* group-hover:rotate-12 transition-transform duration-500 */}
                 </div>
             </section>
 
@@ -138,9 +139,9 @@ export default function Home() {
                                     <Image 
                                         src={proj.image} 
                                         alt={proj.title} 
-                                        width={60} 
-                                        height={60} 
-                                        className="opacity-40 group-hover:scale-110 group-hover:opacity-80 transition-all duration-500"
+                                        width={800} 
+                                        height={800} 
+                                        className="h-full w-full opacity-40 group-hover:scale-110 group-hover:opacity-80 transition-all duration-500"
                                     />
                                 </div>
                                 <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-gray-400">{proj.tag}</span>
@@ -156,7 +157,7 @@ export default function Home() {
             <section className="py-24 max-w-4xl mx-auto px-6 text-center">
                 <div className="p-12 rounded-3xl bg-gradient-to-b from-gray-900 to-transparent border border-white/10 space-y-6 relative overflow-hidden">
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-48 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-                    <h2 className="text-3xl font-bold">Have an idea?</h2>
+                    <h2 className="text-3xl font-bold">Ready to build?</h2>
                     <p className="text-gray-400 max-w-md mx-auto text-sm sm:text-base">
                         Let's chat about your project and build something awesome together.
                     </p>

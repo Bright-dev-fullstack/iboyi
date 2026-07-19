@@ -78,7 +78,7 @@ export default function Navbar() {
                             key={index}
                             href={item.url} 
                             onClick={() => setIsOpen(false)}
-                            className="text-base font-medium border-b border-white/5 pb-2 last:border-none last:pb-0 transition-colors hover:text-gray-300"
+                            className="text-base font-medium border-b border-white/5 pb-2 last:border-none last:pb-0 transition-colors text-white"
                         >
                             {item.name}
                         </Link>
