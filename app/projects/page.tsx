@@ -32,7 +32,7 @@ export default function ProjectsPage() {
             description: "A reliable platform that makes it easy for developers to manage their APIs and connect different data sources in one place.",
             category: "Backend",
             tags: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS"],
-            liveUrl: "#",
+            liveUrl: "https://apiconnect-alpha.vercel.app/",
             githubUrl: "https://github.com/Tochukwu-001/apiconnect"
         },
         {
@@ -41,7 +41,7 @@ export default function ProjectsPage() {
             description: "A beautifully designed, premium job search website that helps connect talented people with the perfect career path.",
             category: "Frontend",
             tags: ["React", "Next.js", "Firebase", "Tailwind CSS"],
-            liveUrl: "#",
+            liveUrl: "https://senero.vercel.app/",
             githubUrl: "https://github.com/Bright-dev-fullstack/Senero"
         },
         {
@@ -50,7 +50,7 @@ export default function ProjectsPage() {
             description: "A custom website built for a local hair studio and spa, complete with a smooth and simple online booking system.",
             category: "Fullstack",
             tags: ["React", "Next.js", "Tailwind CSS", "Calendly API", "Firebase"],
-            liveUrl: "#",
+            liveUrl: "https://jaybliz.vercel.app/",
             githubUrl: "https://github.com/Bright-dev-fullstack/jaybliz"
         }
     ];
